@@ -1,0 +1,248 @@
+ /*Estilo de card*/
+.card{ /*Estilo cuerpo de la tarjeta*/
+    width: 350px;
+    border: 1px solid #626262;
+    border-radius: 4px;
+    margin: 10;
+}
+.card__img{/*Estilo de contenedor de imagen*/
+    width: 100%;
+    height: 350px;
+    overflow: hidden;
+}
+
+.card__img img{/*Estilo de imagen*/
+    height: 350px;
+    width: 350px;
+    object-fit: cover;
+}
+
+.card__container{
+    padding: 25px;
+}
+
+.card__container--color{
+    background-color: #ffcece;
+}
+.card__title{
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+.card__text{
+    font-family: serif;
+}
+
+/*Estilo botones*/
+.button{
+    border-radius: 5px;
+    border: none;
+    padding: 8px 15px;
+    font-size: 12px;
+   
+}
+
+.button:active{
+    background-color: rgb(173, 173, 173);
+}
+
+.btn--white{
+    background-color: white;  
+}
+
+.btn--dark{
+    background-color: rgb(75, 73, 73);
+    color: white;
+}
+
+.btn--black{
+    background-color: rgb(0, 0, 0);
+    color: white;
+}
+
+.btn--primary{
+    background-color: rgb(135, 135, 139);
+    color: white;
+}
+
+.btn--blue{
+    background-color: rgb(79, 79, 230);
+    color: white;
+}
+
+.btn--info{
+    background-color: rgb(107, 107, 221);
+    color: white;
+}
+
+.btn--success{
+    background-color: rgb(183, 168, 53);
+    color: rgb(255, 255, 255);
+}
+
+.btn--warning{
+    background-color: rgb(227, 255, 70);
+}
+
+.btn--danger{
+    background-color: rgb(243, 38, 38);
+    color: white;
+}
+
+.btn--primary02{
+    background-color: rgb(247, 247, 251);
+    color: rgb(104, 102, 102);
+}
+
+.btn--blue02{
+    background-color: rgb(227, 227, 250);
+    color: rgb(96, 86, 232);
+}
+
+.btn--info02{
+    background-color: rgb(241, 241, 251);
+    color: rgb(123, 75, 244);
+}
+
+.btn--success02{
+    background-color: rgb(220, 228, 199);
+    color: rgb(62, 159, 14);
+}
+
+.btn--warning02{
+    background-color: rgb(195, 230, 169);
+    color: rgb(210, 79, 79);
+}
+
+.btn--danger02{
+    background-color: rgb(240, 212, 212);
+    color: rgb(228, 33, 33);
+}
+
+/*tamaño de letra en boton*/
+
+.btn--sizeSmall{
+    font-size: x-small;
+    border: 1px solid black;
+}
+.btn--sizeDefault{
+    font-size: small;
+    border: 1px solid black;
+}
+.btn--sizeNormal{
+    font-size: medium;
+    border: 1px solid black;
+}
+.btn--sizeMedium{
+    font-size: large;
+    border: 1px solid black;
+}
+.btn--sizeLarge{
+    font-size: x-large;
+    border: 1px solid black;
+}
+
+/*ordenar en grid*/
+.buttons {
+    /* Crea un diseño de cuadrícula */
+    display: grid;
+    /* Define el número de columnas y su ancho */
+    grid-template-columns: repeat(5, 1fr);
+    /* Define el número de filas y su altura */
+    grid-template-rows: repeat(4, auto);
+    /* Define el espacio entre los elementos */
+    grid-gap: 10px;
+  }
+
+
+/* Estilo card menu*/
+.cardMenu{
+    width: 500px;
+    border: 1px solid #cdc6c6;
+    border-radius: 4px;
+    margin: 10;
+    
+}
+
+.cardMenu__bar{
+    padding: 5px 20px;
+    display: flex;
+    align-items: center;
+    justify-content: start;
+}
+
+.bar--color{
+    background-color: #e3e3e3;
+}
+
+.link {
+    text-decoration: none;
+    color: rgb(76, 50, 225);
+    font-family: Arial, Helvetica, sans-serif, 'Arial Narrow', Arial, sans-serif; 
+    margin: 20px;  
+}
+
+.cardMenu__container{
+    padding: 20px;
+    text-align: center
+}
+
+/*Card Simple*/
+
+.cardSimple{
+    width: 300px;
+   
+    border-radius: 4px;
+    margin: 10px;  
+}
+
+.cardSimple__bar{
+    padding: 0px 20px;
+    display: flex;
+    font-family: Arial, Helvetica, sans-serif;
+    border-bottom: 1px solid slategray
+}
+
+.cardSimple__container{
+    padding: 0px 15px 20px 20px;
+    text-align: start;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    
+}
+.borde--azul{
+   border: 2px solid blueviolet;
+}
+
+.texto--azul {
+    color: blueviolet;
+}
+
+.borde--gris{
+    border: 2px solid rgb(153, 151, 155);
+ }
+ 
+.texto--gris {
+     color: rgb(151, 151, 151);
+ }
+
+.borde--rojo{
+    border: 2px solid rgb(255, 29, 29);
+ }
+ 
+.texto--rojo {
+     color: rgb(238, 42, 42);
+ }
+
+ .cardSimple--order{
+    display: flex;
+    margin: 20px;
+    justify-content: start;
+ }
+ .etiquetas{
+    border: none;
+    border-radius: 10px;
+    padding: 10px 20px;
+ }
+ .titulos{
+    padding: 90px;
+    font-size: 50px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+ }
